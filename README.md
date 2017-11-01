@@ -19,3 +19,8 @@ This REPO holds collection of files and instructions for deploying an ELK Stack 
 + User Persistent Storage for Elastic Search and Kibana
 +
 
+
+## Alternatives 
++ For adding fluentd daemonset you could also just grab the files from their source in RAW format.
++
++
