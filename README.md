@@ -23,4 +23,9 @@ This REPO holds collection of files and instructions for deploying an ELK Stack 
 ## Alternatives 
 + For adding fluentd daemonset you could also just grab the files from their source in RAW format.
 +
-+
+
+## Sources of Manifests 
++ https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch
+++ (es-statefulset.yaml, es-service.yaml, kibana-deployment.yaml, kibana-service.yaml)
++ https://raw.githubusercontent.com/fluent/fluentd-kubernetes-daemonset/master/fluentd-daemonset-elasticsearch.yaml
+++ fluentd-daemonset-elasticsearch.yaml
